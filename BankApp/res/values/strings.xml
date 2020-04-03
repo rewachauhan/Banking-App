@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BankApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn1">Continue</string>
+    <string name="title_activity_two">TwoActivity</string>
+    <string name="btn2">admin</string>
+    <string name="btn3">Acc Holder</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_holder">HolderActivity</string>
+    <string name="btn4">Change Pass</string>
+    <string name="btn5">Add acc</string>
+    <string name="title_activity_pass">PassActivity</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title_activity_sign">SignActivity</string>
+    <string name="btn7">Sign in</string>
+    <string name="btn8">SUBMIT</string>
+    <string name="btn9">"Create "</string>
+    <string name="title_activity_next">NextActivity</string>
+    <string name="btn10">DEPOSIT</string>
+    <string name="btn11">WITHDRAW</string>
+    <string name="btn12">PASSBOOK</string>
+    <string name="btn13">CHANGE PASS</string>
+    <string name="title_activity_dep">DepActivity</string>
+    <string name="title_activity_with">WithActivity</string>
+    <string name="title_activity_book">BookActivity</string>
+
+</resources>

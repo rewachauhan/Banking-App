@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bankapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.bankapp.BankActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bankapp.TwoActivity"
+            android:label="@string/title_activity_two" >
+        </activity>
+        <activity
+            android:name="com.example.bankapp.AdminActivity"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="com.example.bankapp.HolderActivity"
+            android:label="@string/title_activity_holder" >
+        </activity>
+        <activity
+            android:name="com.example.bankapp.PassActivity"
+            android:label="@string/title_activity_pass" >
+        </activity>
+        <activity
+            android:name="com.example.bankapp.AddActivity"
+            android:label="@string/title_activity_add" >
+        </activity>
+        <activity
+            android:name="com.example.bankapp.SignActivity"
+            android:label="@string/title_activity_sign" >
+        </activity>
+        <activity
+            android:name="com.example.bankapp.NextActivity"
+            android:label="@string/title_activity_next" >
+        </activity>
+        <activity
+            android:name="com.example.bankapp.DepActivity"
+            android:label="@string/title_activity_dep" >
+        </activity>
+        <activity
+            android:name="com.example.bankapp.WithActivity"
+            android:label="@string/title_activity_with" >
+        </activity>
+        <activity
+            android:name="com.example.bankapp.BookActivity"
+            android:label="@string/title_activity_book" >
+        </activity>
+    </application>
+
+</manifest>
